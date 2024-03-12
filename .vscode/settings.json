@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "STR31-C-1.C": "cpp",
+        "INT32-C-5.C": "cpp",
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

@@ -5,3 +5,4 @@ pen->num_vertices = _cairo_pen_vertices_needed(
 pen->vertices = malloc(
   pen->num_vertices * sizeof(cairo_pen_vertex_t)
 );
+

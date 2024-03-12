@@ -16,3 +16,8 @@ size_t func(const char *source) {
   }
   return ret;
 }
+
+int main(void) {
+  func("This is a test string");
+  return 0;
+}

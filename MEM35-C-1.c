@@ -15,3 +15,12 @@ struct tm *make_tm(int year, int mon, int day, int hour,
   };
   return tmb;
 }
+
+int main(void) {
+  struct tm *tmb = make_tm(2010, 11, 5, 14, 30, 0);
+  if (tmb == NULL) {
+    /* Handle error */
+  }
+  free(tmb);
+  return 0;
+}

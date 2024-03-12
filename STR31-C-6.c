@@ -11,3 +11,8 @@ void func(void) {
     strcpy(buff, editor);
   }
 }
+
+int main(void) {
+  func();
+  return 0;
+}

@@ -7,3 +7,8 @@ unsigned int pow2(unsigned int exp) {
   }
   return 1 << exp;
 }
+
+int main(void) {
+  pow2(32);
+  return 0;
+}

@@ -9,3 +9,10 @@ void copy(size_t n, char src[n], char dest[n]) {
    }
    dest[i] = '\0';
 }
+
+int main(void) {
+  char src[] = "Hello, world!";
+  char dest[sizeof(src)];
+  copy(sizeof(src), src, dest);
+  return 0;
+}

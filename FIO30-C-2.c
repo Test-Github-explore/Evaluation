@@ -22,3 +22,4 @@ void incorrect_password(const char *user) {
   syslog(LOG_INFO, msg);
   free(msg);
 }
+

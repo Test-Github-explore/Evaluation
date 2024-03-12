@@ -18,3 +18,13 @@ int insert_in_table(size_t pos, int value) {
   table[pos] = value;
   return 0;
 }
+
+//main関数
+int main(void) {
+  int ret;
+  ret = insert_in_table(0, 1);
+  if (ret != 0) {
+    /* Handle error */
+  }
+  return 0;
+}

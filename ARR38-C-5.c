@@ -14,3 +14,14 @@ void func(FILE *f, struct obj *objs, size_t num_objs) {
     /* Handle error */
   }
 }
+
+int main(void) {
+  FILE *f = fopen("testfile", "w");
+  if (f == NULL) {
+    /* Handle error */
+  }
+  struct obj objs[10];
+  func(f, objs, 10);
+  fclose(f);
+  return 0;
+}

@@ -7,3 +7,8 @@ void f4() {
   size_t n = sizeof(p);
   memcpy(p, q, n);
 }
+
+int main(void) {
+  f4();
+  return 0;
+}

@@ -25,3 +25,8 @@ void lessen_memory_usage(void) {
     cur_msg_len = wcslen(cur_msg);
   }
 }
+
+int main(void) {
+  lessen_memory_usage();
+  return 0;
+}

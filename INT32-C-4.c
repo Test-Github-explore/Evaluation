@@ -8,3 +8,8 @@ void func(signed long s_a, signed long s_b) {
   }
   /* ... */
 }
+
+int main(void) {
+  func(0x80000000, -1);
+  return 0;
+}

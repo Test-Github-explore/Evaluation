@@ -10,3 +10,8 @@ void func(void) {
   memcpy(buffer, str, sizeof(str)); /* Compliant */
   wmemcpy(w_buffer, w_str, sizeof(w_str)); /* Noncompliant */
 }
+
+int main(void) {
+  func();
+  return 0;
+}

@@ -13,3 +13,8 @@ void function(size_t len) {
   }
   free(p);
 }
+
+int main(void) {
+  function(SIZE_MAX);
+  return 0;
+}

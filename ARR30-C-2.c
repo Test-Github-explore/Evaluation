@@ -24,3 +24,13 @@ HRESULT GetMachineName(
     *pwszServerName++ = *pwszTemp++;
   /* ... */
 }
+
+//main関数
+int main(void) {
+  WCHAR *pwszObjectName;
+  WCHAR *pwszServerPath;
+  error_status_t *phr;
+  _RemoteActivation(
+    /* ... */, pwszObjectName, phr);
+  return 0;
+}

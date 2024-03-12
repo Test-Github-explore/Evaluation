@@ -9,3 +9,8 @@ void f2(void) {
  
   memset(p, 0, n);
 }
+
+int main(void) {
+  f2();
+  return 0;
+}

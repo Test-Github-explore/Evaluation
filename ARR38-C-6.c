@@ -12,3 +12,13 @@ void f(FILE *file) {
   size_t nread = fread(wbuf, size, nitems, file);
   /* ... */
 }
+
+int main(void) {
+  FILE *file = fopen("file", "r");
+  if (file == NULL) {
+    /* Handle error */
+  }
+  f(file);
+  fclose(file);
+  return 0;
+}

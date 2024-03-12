@@ -11,3 +11,8 @@ void get_data(void) {
  
   /* Rest of function */
 }
+
+int main(void) {
+  get_data();
+  return 0;
+}

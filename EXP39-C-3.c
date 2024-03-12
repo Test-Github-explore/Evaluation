@@ -33,3 +33,8 @@ void func(void) {
   /* ... */
   free(wp);
 }
+
+int main(void) {
+  func();
+  return 0;
+}

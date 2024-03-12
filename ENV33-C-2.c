@@ -4,3 +4,8 @@
 void func(void) {
   system("rm ~/.config");
 }
+
+int main(void) {
+  func();
+  return 0;
+}

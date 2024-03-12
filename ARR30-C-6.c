@@ -11,3 +11,13 @@ char *init_block(size_t block_size, size_t offset,
   memcpy(buffer + offset, data, data_size);
   return buffer;
 }
+
+int main(void) {
+  char *data = "This is a test";
+  char *buffer = init_block(10, 5, data, strlen(data));
+  if (buffer == NULL) {
+    /* Handle error */
+  }
+  free(buffer);
+  return 0;
+}

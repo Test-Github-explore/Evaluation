@@ -5,3 +5,8 @@ void func(void) {
   int a[ROWS][COLS];
   int (*b)[ROWS] = a;
 }
+
+int main(void) {
+  func();
+  return 0;
+}

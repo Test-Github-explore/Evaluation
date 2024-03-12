@@ -17,3 +17,8 @@ void func(const char *input) {
     /* Handle error */
   }
 }
+
+int main(void) {
+  func("test");
+  return 0;
+}

@@ -16,3 +16,8 @@ void func(void) {
       /* Handle EOF or error */
   }
 }
+
+int main(void) {
+  func();
+  return 0;
+}

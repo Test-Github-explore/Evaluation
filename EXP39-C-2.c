@@ -10,3 +10,8 @@ void func(void) {
  
   printf("%x %x\n", a[0], a[1]);
 }
+
+int main(void) {
+  func();
+  return 0;
+}

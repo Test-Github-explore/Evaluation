@@ -5,3 +5,8 @@ void func(const char *name) {
   char filename[128];
   sprintf(filename, "%s.txt", name);
 }
+
+int main(void) {
+  func("file");
+  return 0;
+}

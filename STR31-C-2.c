@@ -9,3 +9,8 @@ void func(void) {
     /* Handle error */
   }
 }
+
+int main(void) {
+  func();
+  return 0;
+}

@@ -11,3 +11,8 @@ void init_matrix(int x) {
     }
   }
 }
+
+int main(void) {
+  init_matrix(0);
+  return 0;
+}

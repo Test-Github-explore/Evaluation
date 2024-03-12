@@ -9,3 +9,8 @@ void f(void) {
     printf("float is %f\n", f);
   }
 }
+
+int main(void) {
+  f();
+  return 0;
+}

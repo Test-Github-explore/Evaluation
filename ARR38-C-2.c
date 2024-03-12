@@ -10,3 +10,8 @@ void f1(size_t nchars) {
   /* ... */
   memset(p, 0, n);
 }
+
+int main(void) {
+  f1(10);
+  return 0;
+}

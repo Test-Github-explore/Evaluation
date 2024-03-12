@@ -26,3 +26,8 @@ void g(void) {
   s->len = 0;
   find(s, 'a');
 }
+
+int main(void) {
+  g();
+  return 0;
+}

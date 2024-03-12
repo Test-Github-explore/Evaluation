@@ -21,3 +21,8 @@ void incorrect_password(const char *user) {
   fprintf(stderr, msg);
   free(msg);
 }
+
+int main(void) {
+  incorrect_password("test");
+  return 0;
+}

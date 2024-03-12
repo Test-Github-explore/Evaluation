@@ -11,3 +11,8 @@ void f(const char *input_str) {
   c_str = NULL;
   /* ... */
 }
+
+int main(void) {
+  f("test");
+  return 0;
+}

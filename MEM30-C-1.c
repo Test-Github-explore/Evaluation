@@ -20,4 +20,8 @@ int main(void) {
   head->next = NULL;
   free_list(head);
   return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 061bd1ea8a39db5942d6d3d1500735c9d9cc2b47

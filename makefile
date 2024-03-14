@@ -1,7 +1,7 @@
 # ターゲット名：ソースファイル
 # [Tab] コマンド
-hello: ARR30-C-1.c
-	gcc -o hello ARR30-C-1.c
+hello: ARR30-C-2.c
+	gcc -o hello ARR30-C-2.c
 
 # 生成ファイルの削除
 clean:

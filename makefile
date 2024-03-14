@@ -1,7 +1,7 @@
 # ターゲット名：ソースファイル
 # [Tab] コマンド
-hello: EXP34-C-3.c
-	gcc -o hello EXP34-C-2.c
+hello: EXP39-C-1.c
+	gcc -o hello EXP39-C-1.c
 
 # 生成ファイルの削除
 clean:

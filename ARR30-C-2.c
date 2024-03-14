@@ -1,4 +1,5 @@
 // ARR30-C: Noncompliant Code Example (Dereferencing Past-the-End Pointer)
+
 error_status_t _RemoteActivation(
       /* ... */, WCHAR *pwszObjectName, ... ) {
    *phr = GetServerPath(

@@ -1,7 +1,7 @@
 # ターゲット名：ソースファイル
 # [Tab] コマンド
-hello: ENV33-C-1.c
-	gcc -o hello ENV33-C-1.c
+hello: ENV33-C-2.c
+	gcc -o hello ENV33-C-2.c
 
 # 生成ファイルの削除
 clean:

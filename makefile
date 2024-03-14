@@ -1,5 +1,5 @@
 PROGRAM = output
-OBJS = ARR30-C-5.c
+OBJS = ARR30-C-5.o
 SRCS = $(OBJS:%.o=%.c)
 CC = gcc
 CFLASG =

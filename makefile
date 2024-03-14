@@ -1,9 +1,8 @@
-PROGRAM = output
-OBJS = ARR30-C-5.o
-SRCS = $(OBJS:%.o=%.c)
-CC = gcc
-CFLASG =
-LDFLAGS =
+# ターゲット名：ソースファイル
+# [Tab] コマンド
+hello: ARR30-C-5.c
+	gcc -o hello ARR30-C-5.c
 
-$(PROGRAM):$(OBJS)
-        $(CC) $(CFLGAS) $(LDFLAGS) -o $(PROGRAM) $(OBJS) $(LDLIBS)
+# 生成ファイルの削除
+clean:
+	rm -f *~ hello

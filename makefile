@@ -1,7 +1,7 @@
 # ターゲット名：ソースファイル
 # [Tab] コマンド
-hello: INT35-C.c
-	gcc -o hello INT35-C.c
+hello: MEM30-C-1.c
+	gcc -o hello MEM30-C-1.c
 
 # 生成ファイルの削除
 clean:
